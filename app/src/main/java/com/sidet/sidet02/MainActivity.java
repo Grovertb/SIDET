@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         String x = "";
         PersonaBE Usuario= new PersonaBE();
         PersonaBE Usuario2 = new PersonaBE("Grover","Trujillo","Benites",20);
-        Log.i("SIDET:",Usuario2.getApellidoP());
+        Log.i("SIDET:",Usuario2.getNombreCompleto());
     }
 
     @Override

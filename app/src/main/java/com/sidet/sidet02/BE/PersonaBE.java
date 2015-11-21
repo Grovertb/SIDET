@@ -7,6 +7,10 @@ public class PersonaBE {
     String Nombres,ApellidoM,ApellidoP;
     int Edad;
 
+    public String getNombreCompleto(){
+        return Nombres + " " + ApellidoP + " " + ApellidoM;
+    }
+
     public PersonaBE() {
     }
 

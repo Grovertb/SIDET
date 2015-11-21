@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         PersonaNaturalBE Usuario3 = new PersonaNaturalBE();
         PersonaNaturalBE Usuario4 = new PersonaNaturalBE("Grover J.","Trujillo","Benites",20,"AV. Sin Nombre","2047012346");
 
-        Log.i("SIDET:",Usuario4.getNombreCompleto());
+        //Log.i("SIDET:",Usuario4.getNombreCompleto());
     }
 
     @Override

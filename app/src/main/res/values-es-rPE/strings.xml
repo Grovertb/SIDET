@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="varUserName">Usuario</string>
+    <string name="varPassword">Contraseña</string>
+    <string name="varLogin">Ingresar</string>
+</resources>

@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.sidet.sidet02.BE.PersonaBE;
+import com.sidet.sidet02.BE.PersonaNaturalBE;
 
 
 public class MainActivity extends Activity {
@@ -19,7 +20,11 @@ public class MainActivity extends Activity {
         String x = "";
         PersonaBE Usuario= new PersonaBE();
         PersonaBE Usuario2 = new PersonaBE("Grover","Trujillo","Benites",20);
-        Log.i("SIDET:",Usuario2.getNombreCompleto());
+
+        PersonaNaturalBE Usuario3 = new PersonaNaturalBE();
+        PersonaNaturalBE Usuario4 = new PersonaNaturalBE("Grover J.","Trujillo","Benites",20,"AV. Sin Nombre","2047012346");
+
+        Log.i("SIDET:",Usuario4.getNombreCompleto());
     }
 
     @Override

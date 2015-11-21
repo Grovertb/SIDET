@@ -48,7 +48,25 @@ public class MainActivity extends Activity {
 
         Log.i("SIDET:",Usuario4.getNombreCompleto());*/
     }
-
+    
+    @Override
+    protected void onStart(){
+        super.onStart();
+        Log.i("UTP","ESTOY EN ONSTART");
+    }
+    
+    @Override
+    protected void onPause(){
+        super.onPause();
+        Log.i("UTP","ESTOY EN ONPAUSE");
+    }
+    
+    @Override
+    protected void onStop(){
+        super.onStop();
+        Log.i("UTP","ESTOY EN ONSTOP");
+    }
+    
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

@@ -7,6 +7,9 @@ public class PersonaBE {
     String Nombres,ApellidoM,ApellidoP;
     int Edad;
 
+    public PersonaBE() {
+    }
+
     public PersonaBE(String nombres, String apellidoM, String apellidoP, int edad) {
         Nombres = nombres;
         ApellidoM = apellidoM;

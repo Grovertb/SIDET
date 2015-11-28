@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="pe.edu.sidet.sidet" >
-    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,15 +12,32 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TwoActivity"
+            android:label="@string/title_activity_two" >
+        </activity>
+        <activity
+            android:name=".LinearActivity"
+            android:label="@string/title_activity_linear" >
+        </activity>
+        <activity
+            android:name=".RelativeActivity"
+            android:label="@string/title_activity_relative" >
+        </activity>
+        <activity
+            android:name=".Lista1Activity"
+            android:label="@string/title_activity_lista1" >
+
+        </activity>
+        <activity
+            android:name=".lista2Activity"
+            android:label="@string/title_activity_lista2" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".TwoActivity"
-            android:label="@string/title_activity_two" >
         </activity>
     </application>
 

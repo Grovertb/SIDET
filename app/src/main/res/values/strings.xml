@@ -4,4 +4,15 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_two">TwoActivity</string>
+    <string name="title_activity_linear">LinearActivity</string>
+    <string name="title_activity_relative">RelativeActivity</string>
+    <string name="title_activity_lista1">Lista1Activity</string>
+    <string-array name="paises">
+        <item>PERU</item>
+        <item>VENEZUELA</item>
+        <item>COLOMBIA</item>
+        <item>BOLIVIA</item>
+        <item>ECUADOR</item>
+    </string-array>
+    <string name="title_activity_lista2">lista2Activity</string>
 </resources>
